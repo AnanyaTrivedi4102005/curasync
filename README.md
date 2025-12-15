@@ -1,123 +1,89 @@
+🩺 Curasync — Electronic Health Record (EHR) Management System
 
-# CuraSync EHR - Electronic Health Record System
+Curasync is a modern, web-based Electronic Health Record (EHR) Management System designed to streamline healthcare workflows for hospitals and clinics. It provides role-based dashboards for medical staff and helps manage patients, appointments, and medical records efficiently.
 
-## Overview
-CuraSync EHR is a modern, web-based Electronic Health Record System built with React, TypeScript, and Vite. The system is designed to digitize patient records and simplify hospital data management. It helps healthcare professionals store, update, and access patient information efficiently through an intuitive interface.
+🚀 Live Demo
 
-## Features
-- **Role-Based Access Control**: Separate dashboards and permissions for Admin, Doctor, Nurse, and Patient roles
-- **Patient Management**: Complete patient registration and profile management
-- **Medical Records**: Store diagnoses, prescriptions, lab results, and medical notes
-- **Appointment Scheduling**: Schedule and manage patient appointments
-- **Real-time Notifications**: Toast notifications for user actions
-- **Responsive Design**: Mobile-friendly interface built with Tailwind CSS
-- **Modern UI Components**: Built with Radix UI primitives for accessibility
+👉 Live Application:
+🔗 https://curasync-mocha.vercel.app/
 
-## Tech Stack
-- **Frontend Framework**: React 18 with TypeScript
-- **Build Tool**: Vite 6
-- **Styling**: Tailwind CSS
-- **UI Components**: Radix UI primitives
-- **Icons**: Lucide React
-- **Notifications**: Sonner
-- **Form Handling**: React Hook Form
-- **State Management**: React Hooks (useState, useEffect)
+✨ Features
 
-## Quick Start
+Role-based dashboards (Doctor, Nurse, Admin)
 
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
+Patient and medical record management
 
-### Installation & Setup
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd Electronic-Health-Record-System
-   ```
+Appointment scheduling & tracking
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+Clean, responsive UI
 
-3. **Start development server**
-   ```bash
-   npm run dev
-   ```
-   The application will be available at `http://localhost:3000` (or next available port)
+Modern component-based architecture
 
-4. **Build for production**
-   ```bash
-   npm run build
-   ```
+Fast and optimized build using Vite
 
-### Project Structure
-```
+🛠 Tech Stack
+
+Frontend: React + TypeScript
+
+Build Tool: Vite
+
+UI Components: Radix UI, Lucide Icons
+
+Styling: Tailwind CSS
+
+State & Utilities: Local storage–based data handling
+
+Deployment: Vercel
+
+📦 Installation & Local Setup
+# Clone the repository
+git clone https://github.com/vanshjain271/curasync.git
+
+# Navigate into the project
+cd curasync
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+
+
+The app will run at:
+
+http://localhost:3000
+
+🏗 Build for Production
+npm run build
+
+📁 Project Structure
 src/
-├── components/           # React components
-│   ├── ui/              # Reusable UI components (buttons, dialogs, etc.)
-│   ├── AdminDashboard.tsx
-│   ├── DoctorDashboard.tsx
-│   ├── NurseDashboard.tsx
-│   ├── PatientDashboard.tsx
-│   └── LoginPage.tsx
-├── lib/                 # Utility functions and storage
-├── types/               # TypeScript type definitions
-├── styles/              # Global CSS styles
-└── main.tsx            # Application entry point
-```
+ ├─ components/
+ │  ├─ ui/
+ │  └─ dashboards/
+ ├─ lib/
+ ├─ pages/
+ ├─ App.tsx
+ └─ main.tsx
 
-## Usage
+🌐 Deployment
 
-### User Roles
-1. **Admin**: System administration and user management
-2. **Doctor**: Patient care, medical records, and appointment management
-3. **Nurse**: Patient support, medical record entry, and availability management
-4. **Patient**: View personal medical records and appointments
+This project is deployed using Vercel.
+Every push to the main branch triggers an automatic redeploy.
 
-### Key Features by Role
-- **Patient Registration**: Add new patients with complete details
-- **Medical Record Management**: Create, view, and update medical records
-- **Appointment Scheduling**: Schedule and manage patient appointments
-- **Availability Management**: Healthcare providers can manage their schedules
-- **Search & Filter**: Quick patient and record search functionality
+📌 Future Enhancements
 
-## Development
+Backend integration (Node.js / API)
 
-### Available Scripts
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run preview` - Preview production build
+Authentication & authorization
 
-### Component Architecture
-The application uses a modular component architecture with:
-- **UI Components**: Reusable components built with Radix UI
-- **Feature Components**: Role-specific dashboard components
-- **Shared Components**: Common components like Header, Footer, Loading
+Database-backed storage
 
-### Styling
-- Tailwind CSS for utility-first styling
-- Custom CSS variables for theme management
-- Responsive design patterns
+Audit logs & compliance features
 
-## Recent Updates
-- ✅ Fixed all import resolution errors in Vite build
-- ✅ Updated UI component imports to use standard Node resolution
-- ✅ Resolved white screen issues by fixing dependency imports
-- ✅ Ensured zero Vite pre-transform and import-analysis errors
+Real-time notifications
 
-## Browser Support
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
+👤 Author
 
-## Contributing
-1. Follow the existing code style and patterns
-2. Use TypeScript for all new components
-3. Ensure imports use standard Node resolution (no version numbers)
-4. Test thoroughly before submitting changes
-
-## License
-This project is licensed under the MIT License.
+Vansh Jain
+GitHub: https://github.com/vanshjain271
