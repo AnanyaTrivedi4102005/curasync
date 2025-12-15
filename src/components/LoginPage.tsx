@@ -113,13 +113,14 @@ export function LoginPage({ onLogin }: LoginPageProps) {
     } catch (error) {
       toast.error('Registration failed. Email may already be registered.');
     }
+
   };
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100 relative">
       <div className="flex items-center justify-center p-4 min-h-screen">
-        <div className="w-full max-w-md">
-          <div className="text-center mb-8">
+        <div className="w-full max-w-md md:max-w-xl lg:max-w-2xl">
+          <div className="text-center mb-6 md:mb-8">
             <div className="text-4xl font-bold text-teal-600 mb-4">CuraSync</div>
           </div>
 
@@ -135,8 +136,8 @@ export function LoginPage({ onLogin }: LoginPageProps) {
                   <CardTitle>Welcome Back</CardTitle>
                   <CardDescription>Login to access your CuraSync account</CardDescription>
                 </CardHeader>
-                <CardContent>
-                  <form onSubmit={handleLogin} className="space-y-4">
+                <CardContent className="px-4 py-6 md:px-8 md:py-8 lg:px-12">
+                  <form onSubmit={handleLogin} className="space-y-3">
                     <div className="space-y-2">
                       <Label htmlFor="login-email">Email</Label>
                       <Input
@@ -147,6 +148,7 @@ export function LoginPage({ onLogin }: LoginPageProps) {
                         onChange={(e) => setLoginEmail(e.target.value)}
                       />
                     </div>
+
                     <div className="space-y-2">
                       <Label htmlFor="login-password">Password</Label>
                       <Input
@@ -172,9 +174,9 @@ export function LoginPage({ onLogin }: LoginPageProps) {
                   <CardTitle>Create Account</CardTitle>
                   <CardDescription>Register for a new CuraSync account</CardDescription>
                 </CardHeader>
-                <CardContent>
-                  <form onSubmit={handleRegister} className="space-y-4">
-                    <div className="grid grid-cols-2 gap-4">
+                <CardContent className="px-4 py-6 md:px-8 md:py-8 lg:px-12">
+                  <form onSubmit={handleRegister} className="space-y-3">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                       <div className="space-y-2">
                         <Label htmlFor="reg-firstname">First Name</Label>
                         <Input
