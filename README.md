@@ -61,4 +61,6 @@ Every push to the main branch triggers an automatic redeploy.
 
 ## 👤 Author
 Ananya Trivedi
-GitHub: https://github.com/AnanyaTrivedi4102005
+- LinkedIn: www.linkedin.com/in/ananya-trivedi4102005
+- GitHub: https://github.com/AnanyaTrivedi4102005
+- Email: atrvd2005@gmail.com
