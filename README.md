@@ -85,5 +85,5 @@ Real-time notifications
 
 👤 Author
 
-Vansh Jain
-GitHub: https://github.com/vanshjain271
+Ananya Trivedi
+GitHub: https://github.com/AnanyaTrivedi4102005
